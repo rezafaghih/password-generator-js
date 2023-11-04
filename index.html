@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="scripts/style.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Password Generator</title>
+</head>
+<body class="bg-body-secondary">
+    <div class="container-main d-flex justify-content-center align-items-center">
+        <div class="password-generator bg-white shadow-sm">
+            <h2>Password generator</h2>
+            <hr>
+            <div class="mb-3">
+                <label for="password-len" class="form-label">Password Length</label>
+                <input type="email" class="form-control" id="password-len" maxlength="22" required placeholder="enter your password Length">
+                <button class="btn btn-dark mt-4" id = "generate-password">Generate</button>
+
+                <div class="password-output">
+                    <span></span>
+                </div>
+                <!-- <span>click to copy password</span> -->
+
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
+<link rel="stylesheet" href="node_modules/bootstrap/dist/js/bootstrap.bundle.js">
+<script src="scripts/apps.js"></script>
